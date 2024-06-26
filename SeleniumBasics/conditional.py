@@ -16,7 +16,7 @@ driver.get("https://admin-demo.nopcommerce.com/regiser")
 driver.maximize_window()
 time.sleep(5)
 searchbox = driver.find_element(By.XPATH,"//input[@id='Email']")
-print("Display status:",searchbox.is_displayed())
 print("Enabled status:",searchbox.is_enabled())
+print("Display status:",searchbox.is_displayed())
 driver.quit()
 
