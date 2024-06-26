@@ -32,6 +32,7 @@ Products_lnk.click()
 time.sleep(5)
 Products = driver.find_elements(By.XPATH,".//table[@id='products-grid']//tbody/tr//td[3]")
 time.sleep(5)
+print(" Products count : ",len(Products))
 #.//table[@id='products-grid']//tbody/tr//td[3]
 for ele in Products:
     print(ele.text)
