@@ -35,6 +35,6 @@ time.sleep(5)
 print(" Products count : ",len(Products))
 #.//table[@id='products-grid']//tbody/tr//td[3]
 for ele in Products:
-    print("Products list: ",ele.text)
+    print("Products list are : ",ele.text)
 driver.quit()
 
