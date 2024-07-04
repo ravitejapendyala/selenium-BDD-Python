@@ -19,7 +19,7 @@ email = driver.find_element(By.XPATH,"//input[@id='Email']")
 time.sleep(3)
 email.clear()
 email.send_keys("raviteja@gmail.com")
-time.sleep(3)
+time.sleep(4)
 
 print("After clearing result of text",email.text)
 print("After clearing result of get_attribute()",email.get_attribute("value"))
