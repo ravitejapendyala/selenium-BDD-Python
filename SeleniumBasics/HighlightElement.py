@@ -25,6 +25,6 @@ login = driver.find_element(By.XPATH,"//button[@type='submit']")
 
 print("After clearing result of text",email.text)
 print("After clearing result of get_attribute()",email.get_attribute("value"))
-print("login button text is : ",login.text)
-print("login button result of get_attribute() is : ",login.get_attribute("value"))
+print("login button text is :",login.text)
+print("login button result of get_attribute() is :",login.get_attribute("value"))
 driver.quit()
